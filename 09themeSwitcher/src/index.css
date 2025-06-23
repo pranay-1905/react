@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* index.css */
+
+@tailwind utilities;
+
+
+html.light {
+  background-color: white;
+  color: black;
+}
+
+html.dark {
+  background-color: #111827; /* Tailwind's bg-gray-900 */
+  color: white;
+}
